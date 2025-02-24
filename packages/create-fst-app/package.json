@@ -4,6 +4,7 @@
   "description": "Full Stack TypeScript web app boilerplate generator",
   "type": "module",
   "module": "index.ts",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/C41M50N/create-fst-app.git",
@@ -21,6 +22,7 @@
     "package.json"
   ],
   "scripts": {
+    "dev": "bun --watch run ./index.ts",
     "build": "bun build ./index.ts --outdir ./dist"
   },
   "devDependencies": {
